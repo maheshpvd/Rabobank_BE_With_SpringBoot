@@ -9,6 +9,10 @@ import com.rabobank.vo.Failure;
 import com.rabobank.vo.Statement;
 
 public class StatementValidation {
+	
+	private StatementValidation() {
+		throw new IllegalStateException("StatementValidation class");
+	}
 
 	public static List<Failure> getInvalidRecords(List<Statement> statements) {
 		List<Failure> invalidStatements = new ArrayList<>();
