@@ -4,7 +4,7 @@
 - java-1.8,
 - maven-3.3.3 or higher
 
-download code base from https://github.com/maheshpvd/Rabobank_BE_SpringBoot
+download code base from https://github.com/maheshpvd/Rabobank_BE_With_SpringBoot
 - Redirect to **Rabobank** folder
 - Run **mvn clean install** command
 
