@@ -6,15 +6,20 @@ import java.util.List;
 import java.util.Map;
 
 public class Constants {
+	
+	private Constants() {
+		throw new IllegalStateException("Constants class");
+	}
 
-	public final static List<String> fileTypes = new ArrayList<String>() {
+
+	public static final List<String> fileTypes = new ArrayList<String>() {
 		private static final long serialVersionUID = 4909495617622112492L;
 		{
 			add("XML");
 			add("CSV");
 		}
 	};
-	public final static Map<String, String> columnMapping = new HashMap<String, String>() {
+	public static final Map<String, String> columnMapping = new HashMap<String, String>() {
 		private static final long serialVersionUID = 1L;
 		{
 			put("Reference", "transactionReference");
